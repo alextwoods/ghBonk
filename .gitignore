@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+._*
+
+# Swift Package Manager
+/.build/
+/Packages/
+.swiftpm/
+.netrc
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+
+# Build outputs
+*.app/
+*.dSYM/
+*.ipa
+
+# Logs
+*.log
+
+# Kiro local execution history (session-specific)
+.kiro/specs/*/tasks.meta.json
+
+# Local secrets / env
+.env
+.env.*
+*.p12
+*.mobileprovision
